@@ -66,7 +66,7 @@ input#menu {
 
 @media (min-width: 1114px) {
     .header {
-        padding-top: 51px;
+        padding-top: 24px;
         padding-left: 70px;
         padding-right: 70px;
     }
@@ -81,8 +81,12 @@ input#menu {
     }
 
     .page_nav.homepage_header_nav {
-        width: 50%;
+        min-width: 50%;
         display: block;
+        position: unset;
+        transform: unset;
+        box-shadow: none;
+        background-color: unset;
 
         & .homepage_header_lists {
             width: 100%;
