@@ -2,8 +2,9 @@
 
 .header {
     padding-top: 16px;
-    padding-left: 32px;
-    padding-right: 32px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 48px;
 }
 
 .homepage_header_container {
@@ -47,7 +48,11 @@ input#menu {
     -ms-transform: translateX(200%);
     -o-transform: translateX(200%);
 
-    & a {
+        & .homepage_header_list {
+            margin-right: 16px;
+        }
+
+        & a {
         font-weight: 500;
         font-size: 16px;
         line-height: 36px;
@@ -55,6 +60,11 @@ input#menu {
     }
 }
 
+.homepage_section:not(:first-of-type) {
+    padding-left: 32px;
+    padding-right: 32px;
+}
+ 
 .page_nav.homepage_header_nav.showMenu {
     transform: translateX(0);
     left: 0;
