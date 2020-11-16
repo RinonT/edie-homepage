@@ -438,3 +438,36 @@ h3.clients_article_subheading {
   .clients_image {
     display: flex;
     margin-top: 36px; } }
+
+footer {
+  background: #100e1d; }
+
+.contact_container {
+  padding-top: 36px;
+  padding-bottom: 150px;
+  margin-left: 41px; }
+
+.homepage_contact_link {
+  font-size: 18px;
+  line-height: 200%;
+  color: #ffffff; }
+
+.contact_name {
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 53px;
+  color: #f2f2f2; }
+
+.contact_section_form {
+  position: relative; }
+  .contact_section_form button {
+    position: absolute; }
+
+.contact_section_input {
+  height: 37px;
+  background: #f2f2f2;
+  border-radius: 12px; }
+
+.contact_section_paragraph {
+  font-size: 14px;
+  line-height: 21px; }
