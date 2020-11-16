@@ -10,6 +10,7 @@
         font-weight: bold;
         font-size: 24px;
         line-height: 36px;
+        margin-top: 43px;
     }
 
     & .services_section_link {
@@ -25,6 +26,40 @@
 
     & .services_section_link:hover {
         background-color: #2d9cdb;
+    }
+}
+.services_link--front-end,
+.services_link--edit,
+.services_link--back-end {
+    border-radius: 16px;
+    padding: 20px;
+}
+
+.services_link--edit {
+    background: #2d9cdb;
+
+    & img {
+        margin-bottom: -3px;
+    }
+}
+
+.services_link--front-end {
+    font-size: 24px;
+    background: #27AE60;
+    color: #ffffff;
+    padding-top: 16px;
+    padding-bottom: 16px;
+
+}
+
+.services_link--back-end {
+    background: #EB5757;
+    padding: 20px;
+ 
+    & img {
+        width: 30px;
+        height: 24px;
+        margin-bottom: -5px;
     }
 }
 

@@ -227,7 +227,8 @@ input#menu {
   .services_section .services_article_subheading {
     font-weight: bold;
     font-size: 24px;
-    line-height: 36px; }
+    line-height: 36px;
+    margin-top: 43px; }
   .services_section .services_section_link {
     font-size: 16px;
     line-height: 24px;
@@ -239,6 +240,32 @@ input#menu {
     color: #828282; }
   .services_section .services_section_link:hover {
     background-color: #2d9cdb; }
+
+.services_link--front-end,
+.services_link--edit,
+.services_link--back-end {
+  border-radius: 16px;
+  padding: 20px; }
+
+.services_link--edit {
+  background: #2d9cdb; }
+  .services_link--edit img {
+    margin-bottom: -3px; }
+
+.services_link--front-end {
+  font-size: 24px;
+  background: #27AE60;
+  color: #ffffff;
+  padding-top: 16px;
+  padding-bottom: 16px; }
+
+.services_link--back-end {
+  background: #EB5757;
+  padding: 20px; }
+  .services_link--back-end img {
+    width: 30px;
+    height: 24px;
+    margin-bottom: -5px; }
 
 .services_section_article {
   padding-top: 50px;
@@ -453,21 +480,66 @@ footer {
   color: #ffffff; }
 
 .contact_name {
+  margin: 0;
+  margin-top: 64px;
   font-weight: 800;
   font-size: 36px;
   line-height: 53px;
   color: #f2f2f2; }
 
 .contact_section_form {
-  position: relative; }
+  display: flex;
+  position: relative;
+  width: 80%; }
+  .contact_section_form .contact_section_input {
+    width: 100%;
+    height: 37px;
+    background: #f2f2f2;
+    border-radius: 12px;
+    outline: none;
+    padding-left: 16px; }
   .contact_section_form button {
-    position: absolute; }
-
-.contact_section_input {
-  height: 37px;
-  background: #f2f2f2;
-  border-radius: 12px; }
+    position: absolute;
+    right: 0%;
+    bottom: 3px;
+    margin-right: 5px; }
 
 .contact_section_paragraph {
   font-size: 14px;
   line-height: 21px; }
+
+.contact_social_media {
+  display: flex;
+  margin-bottom: 65px; }
+  .contact_social_media .contact_social_media_list {
+    margin-right: 12px; }
+
+@media (min-width: 1114px) {
+  .contact_container {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 142px;
+    margin-left: 0;
+    margin-right: 0; }
+  .contact_name {
+    margin-top: 0; }
+  .homepage_div.contact_section_div {
+    flex-basis: 33%; }
+  .contact_section_form {
+    width: 100%; }
+    .contact_section_form .contact_section_input {
+      width: 100%;
+      height: 40px; }
+    .contact_section_form button {
+      position: unset;
+      height: 37px;
+      margin-top: 5px;
+      line-height: unset;
+      padding-bottom: 0;
+      padding-top: 7px;
+      transform: translateX(-50px);
+      -webkit-transform: translateX(-50px);
+      -moz-transform: translateX(-50px);
+      -ms-transform: translateX(-50px);
+      -o-transform: translateX(-50px); } }
