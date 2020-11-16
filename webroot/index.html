@@ -131,27 +131,29 @@
                         Good design means good business
                     </h2>
                 </header>
-                <div class="homepage_container articles_container">
-                    <article class="homepage_article article_section_article">
+                <div class="homepage_container articles_container articles_container--works">
+                    <article class="homepage_article works_section_article">
                         <img src="./images/smarthome.jpg" alt="smarthome image">
                         <div class="works_description">
                             <span class="works_category">Full stack application</span>
                             <span class="works_name">Smart home dashboard</span>
                         </div>
                     </article>
-                    <article class="homepage_article article_section_article">
+                    <article class="homepage_article works_section_article">
                         <img src="./images/onboard.png" alt="onboard app image">
                         <div class="works_description">
                             <span class="works_category">UX/UI design</span>
                             <span class="works_name">Onboard application</span>
                         </div>
-                    </article><article class="homepage_article article_section_article">
+                    </article>
+                    <article class="homepage_article works_section_article">
                         <img src="./images/booking.png" alt="booking system image">
                         <div class="works_description">
                             <span class="works_category">Mobile application</span>
                             <span class="works_name">Booking system</span>
                         </div>
-                    </article><article class="homepage_article article_section_article">
+                    </article>
+                    <article class="homepage_article works_section_article">
                         <img src="./images/juice-product.png" alt="juice product image">
                         <div class="works_description">
                             <span class="works_category">Front End application</span>
@@ -159,7 +161,8 @@
                         </div>
                     </article>
                 </div>
-                <a class="homepage_link works_link" href="next_images">See more</a>
+                <div class="homepage_link works_link_container">
+                    <a class="homepage_link works_link" href="next_images">See more</a>
             </section>
             <section class="homepage_section clients_section" id="clients">
                 <div class="homepage_container articles_container">
@@ -176,18 +179,28 @@
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         </p>
                     </article>
-                    <div class="images_container">
-                        <img src="./images/person3.png" alt="team image">
-                        <img src="./images/person1.png" alt="team image">
-                        <img src="./images/person2.png" alt="team image">
+                    <div class="clients_images_container">
+                        <div class="clients_images">
+                            <img src="./images/person3.png" alt="team image">
+
+                        </div>
+                        <div class="clients_images">
+                            <img src="./images/person1.png" alt="team image">
+                        </div>
+                        <div class="clients_images">
+                            <img src="./images/person2.png" alt="team image">
+                        </div>
                     </div>
                 </div>
                 <div class="homepage_container clients_container">
-                    <p class="homepage_paragraph clients_section_paragraph">
-                        “Fast and outstanding resutls. Edie understands their customer’s needs. They have a young and talented team.”    
+                    <p class="homepage_paragraph clients_section_paragraph--info">
+                        “Fast and outstanding resutls. Edie understands their customer’s needs. They have a young and
+                        talented team.”
                     </p>
                     <div class="clients_image">
-                        <img src="./images/person4.png" alt="Image of Carlos">
+                        <div class="clients_image_container">
+                            <img src="./images/person4.png" alt="Image of Carlos">
+                        </div>
                         <p class="homepage_paragraph clients_section_paragraph">
                             <span class="clients_name">Carlos Tran</span>
                             <span>The Decorate Gatsby</span>
